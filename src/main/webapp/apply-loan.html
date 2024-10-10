@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply for a Loan</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Loan Application</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="make-payment.html">Make a Payment</a></li>
+                <li><a href="create-loan-offer.html">Create Loan Offer</a></li>
+                <li><a href="login.html">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form id="loanApplicationForm">
+            <label for="borrowerName">Name:</label>
+            <input type="text" id="borrowerName" name="borrowerName" required>
+
+            <label for="loanAmount">Loan Amount:</label>
+            <input type="number" id="loanAmount" name="loanAmount" required>
+
+            <label for="interestRate">Interest Rate (%):</label>
+            <input type="number" id="interestRate" name="interestRate" required>
+
+            <label for="duration">Duration (months):</label>
+            <input type="number" id="duration" name="duration" required>
+
+            <button type="submit">Apply for Loan</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2024 Loan Issuance Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
